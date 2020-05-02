@@ -1,12 +1,10 @@
 The Binding of Isaac: Four Souls Card Downloader
 
-Created in Kotlin with IntelliJ IDEA.
-Dependencies: Google GSON, JSoup.
+Created in Kotlin with IntelliJ IDEA. Dependencies: Google GSON, JSoup.
 
 This simple tool allows you to automatically download card pictures from foursoulsspoiler.com, neatly organized based on the categories of the aforementioned website and cropping them down to the size 437x609, i.e. removing the surronding transparent border.
 
-USAGE:
-java -jar FourSoulsDownloader.jar STARTID ENDID
+USAGE: java -jar FourSoulsDownloader.jar STARTID ENDID
 
 Where STARTID and ENDID are the extremes of the range of card IDs you want to check on the website. If you fail to provide one or both, the tool will automatically use the currently known extremes of the range of all existing cards at the time I'm writing this. These extremes are 70 and 790.
 
